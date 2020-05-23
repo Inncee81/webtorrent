@@ -1,10 +1,10 @@
 {
-  "name": "webtorrent",
+  "name": "@peerflix/webtorrent",
   "description": "Streaming torrent client",
-  "version": "0.108.3",
+  "version": "0.109.0",
   "author": {
     "name": "WebTorrent LLC",
-    "email": "feross@webtorrent.io",
+    "email": "peerflix@protonmail.com",
     "url": "https://webtorrent.io"
   },
   "browser": {
@@ -23,7 +23,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/webtorrent/webtorrent/issues"
+    "url": "https://github.com/peerflix/webtorrent/issues"
   },
   "chromeapp": {
     "fs-chunk-store": "memory-chunk-store",
@@ -128,7 +128,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/webtorrent/webtorrent.git"
+    "url": "git://github.com/peerflix/webtorrent.git"
   },
   "scripts": {
     "build": "npm run build-js && npm run build-chromeapp",
