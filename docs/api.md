@@ -54,6 +54,8 @@ If `opts` is specified, then the default options (shown below) will be overridde
 ```js
 {
   maxConns: Number,        // Max number of connections per torrent (default=55)
+  downloadLimit: Number,   // Max download speed (Number.MAX_VALUE)
+  uploadLimit: Number,   // Max upload speed (Number.MAX_VALUE)
   nodeId: String|Buffer,   // DHT protocol node ID (default=randomly generated)
   peerId: String|Buffer,   // Wire protocol peer ID (default=randomly generated)
   tracker: Boolean|Object, // Enable trackers (default=true), or options object for Tracker
