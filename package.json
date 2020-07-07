@@ -57,7 +57,7 @@
     "randombytes": "^2.0.3",
     "range-parser": "^1.2.0",
     "readable-stream": "^3.0.6",
-    "render-media": "^3.0.0",
+    "render-media": "github:peerflix/render-media",
     "run-parallel": "^1.1.6",
     "run-parallel-limit": "^1.0.3",
     "simple-concat": "^1.0.0",
